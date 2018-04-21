@@ -1,0 +1,4 @@
+.next-arrow {
+    position: relative;
+    top: calc(50% - 24px);
+}
