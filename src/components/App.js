@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
-import CurrentCard from "./CurrentCard";
+
+import CurrentZone from "./CurrentZone";
+import FunctionBar from "./FunctionBar";
+import Divider from './Divider';
+
 import "../styles/App.css";
+import ReviewZone from './ReviewZone';
 
 class App extends Component {
   render() {
@@ -12,10 +17,10 @@ class App extends Component {
           <h1 className="App-title">Note Cards</h1>
         </header>
         <div className="container">
-          <CurrentCard/>
-          <row>
-            <hr/>
-          </row>
+          <CurrentZone/>
+          <FunctionBar/>
+          <Divider/>
+          <ReviewZone/>
         </div>
       </div>
     );
