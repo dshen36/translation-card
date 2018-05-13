@@ -3,9 +3,9 @@ import React, { Component } from "react";
 class Divider extends Component {
     render() {
         return (
-            <row>
+            <div>
                 <hr/>
-            </row>
+            </div>
         );
     }
 }
